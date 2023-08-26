@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply px-5 py-3 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm transition-all duration-500
+}
+
+.btn-danger {
+  @apply px-5 py-3 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm transition-all duration-500
+}
+
+.btn-success {
+  @apply px-5 py-3 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm transition-all duration-500
+}
+
+.nav-link {
+  @apply text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0
+}
+
+.active-link {
+  @apply text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0
+}
+
+.card {
+  @apply border border-gray-200 rounded-lg shadow bg-white
+}
+
+.card-body {
+  @apply p-6
+}
+
+.card-title {
+  @apply mb-2 text-2xl font-bold tracking-tight text-gray-900
+}
+
+.tab {
+  @apply border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300
+}
+
+.tab-active {
+  @apply inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg
+}
+
+.open-sidebar {
+  @apply transition-transform -translate-x-full sm:translate-x-0
+}
